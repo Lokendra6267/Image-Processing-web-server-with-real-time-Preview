@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "../dist",
+    "module": "commonjs",   // Use commonjs for Node.js compatibility
+    "target": "ES6",
+    "esModuleInterop": true,
+    "moduleResolution": "node",   // Ensure correct module resolution
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "../node_modules",
+    "../dist"
+  ]
+}
